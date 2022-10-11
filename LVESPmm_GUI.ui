@@ -29,7 +29,7 @@
      <x>36</x>
      <y>10</y>
      <width>288</width>
-     <height>172</height>
+     <height>182</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout_params">
@@ -51,7 +51,7 @@
     <item row="0" column="0">
      <widget class="QLabel" name="label_pitch">
       <property name="text">
-       <string>Thread Pitch</string>
+       <string>Thread Pitch (mm)</string>
       </property>
      </widget>
     </item>
@@ -71,7 +71,7 @@
     <item row="2" column="0">
      <widget class="QLabel" name="label_rs">
       <property name="text">
-       <string>Syringe Radius (internal)</string>
+       <string>Syringe Radius, internal (mm)</string>
       </property>
      </widget>
     </item>
@@ -81,7 +81,7 @@
     <item row="3" column="0">
      <widget class="QLabel" name="label_rb">
       <property name="text">
-       <string>Bowden Tube Radius (internal)</string>
+       <string>Bowden Tube Radius, internal (mm)</string>
       </property>
      </widget>
     </item>

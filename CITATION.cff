@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "LVESPmm"
+message: "If you use this software, please cite it using the metadata from this file."
+type: "software"
+authors:
+  - given-names: "Robert"
+    family-names: "Jess"
+    email: "Rob_Jess@outlook.com"
+    affiliation: "Swansea University"
+    orcid: 'https://orcid.org/0000-0003-1443-4507'
+repository-code: 'https://github.com/KryptonNerd/LVESPmm'
+license: "GPL-3.0-or-later"

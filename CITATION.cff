@@ -8,5 +8,19 @@ authors:
     email: "Rob_Jess@outlook.com"
     affiliation: "Swansea University"
     orcid: 'https://orcid.org/0000-0003-1443-4507'
+  - given-names: "Jonathan"
+    family-names: "Widdowson"
+    affiliation: 'Procoll, Swansea University'
+    orcid: 'https://orcid.org/0000-0003-4249-2640'
+  - given-names: "Chris"
+    family-names: "Wright"
+    affiliation: "Swansea University"
+    orcid: 'https://orcid.org/0000-0003-2375-8159'
+    email: "c.wright@swansea.ac.uk"
+  - given-names: "Feihu"
+    family-names: "Zhao"
+    orcid: 'https://orcid.org/0000-0003-0515-6808'
+    affiliation: "Swansea University"
+    email: "feihu.zhao@swansea.ac.uk"
 repository-code: 'https://github.com/KryptonNerd/LVESPmm'
 license: "GPL-3.0-or-later"

@@ -7,4 +7,4 @@ This is for an LVE that is based around the MOST OSSP or similar syringe pumps.
 
 
 
-<img src="/Logos and Images/GPLv3 or Later.svg" alt="GPLv3" title="GPLv3 logo">
+<img src="/Logos and Images/GPLv3 or Later.svg" alt="GPLv3" title="GPLv3 logo"> [![DOI](https://zenodo.org/badge/548997554.svg)](https://zenodo.org/badge/latestdoi/548997554)

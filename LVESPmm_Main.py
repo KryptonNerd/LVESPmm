@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, uic
 import sys
-from ESPMM import ESPMM_calc
+from LVESPmm_calc import LVESPmm_calc
 
 ESPMM_Result = None
 steps_options = [400,200,48]
@@ -11,7 +11,7 @@ usteps_options_txt = map(str, usteps_options)
 class LVESPmm_GUI(QtWidgets.QWidget):
     def __init__(self):
         super(LVESPmm_GUI, self).__init__()
-        uic.loadUi('LVESPmm_GUI.ui', self)
+        uic.loadUi('GUI\LVESPmm_GUI.ui', self)
 
         self.pushButton_calc.clicked.connect(self.Calc)
         self.comboBox_steps.addItems(steps_options_txt)
@@ -39,8 +39,8 @@ class LVESPmm_GUI(QtWidgets.QWidget):
             steps = float(steps_options[self.comboBox_steps.currentIndex()])
             usteps = float(usteps_options[self.comboBox_usteps.currentIndex()])
 
-            ESPMM_Result = ESPMM_calc(pitch, starts, rs, rb, steps, usteps)
-            self.lcdNumber_espmm.display(float(ESPMM_Result))
+            LVESPmm_Result = LVESPmm_calc(pitch, starts, rs, rb, steps, usteps)
+            self.lcdNumber_espmm.display(float(LVESPmm_Result))
 
 
     
